@@ -1,0 +1,5 @@
+model_name,package,name,function,file_name,eval_parm
+Multivariate Polynomial Regressions,sklearn.linear_model,LinearRegression,,best_linear_regression,test
+SVR,sklearn.svm,SVR,kernel = 'rbf',best_svr,test
+Random Forrest,sklearn.ensemble,RandomForestRegressor,"n_estimators = 10, random_state = 0",best_random_forrest,test
+Gradient Boosting,sklearn.ensemble,GradientBoostingRegressor,random_state=0,best_gradient_boosting,test
